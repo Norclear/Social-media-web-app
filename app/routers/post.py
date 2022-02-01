@@ -1,5 +1,5 @@
 from fastapi.security import oauth2
-from sqlalchemy.sql.functions import mode, user
+from sqlalchemy.sql.functions import mode
 from .. import models, schemas, oauth2
 from fastapi import FastAPI, Response, responses, status, HTTPException, Depends, APIRouter
 from sqlalchemy.orm.session import Session
